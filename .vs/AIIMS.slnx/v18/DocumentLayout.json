@@ -1,0 +1,762 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{699BF4A6-2C60-47A4-9A30-34E26DA5ACFA}|AIIMS.API\\AIIMS.API.csproj|c:\\users\\asus\\source\\repos\\ai-ims\\aiims.api\\aiims.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{699BF4A6-2C60-47A4-9A30-34E26DA5ACFA}|AIIMS.API\\AIIMS.API.csproj|solutionrelative:aiims.api\\aiims.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{699BF4A6-2C60-47A4-9A30-34E26DA5ACFA}|AIIMS.API\\AIIMS.API.csproj|c:\\users\\asus\\source\\repos\\ai-ims\\aiims.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{699BF4A6-2C60-47A4-9A30-34E26DA5ACFA}|AIIMS.API\\AIIMS.API.csproj|solutionrelative:aiims.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{699BF4A6-2C60-47A4-9A30-34E26DA5ACFA}|AIIMS.API\\AIIMS.API.csproj|c:\\users\\asus\\source\\repos\\ai-ims\\aiims.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{699BF4A6-2C60-47A4-9A30-34E26DA5ACFA}|AIIMS.API\\AIIMS.API.csproj|solutionrelative:aiims.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31F9C1FA-45A9-B3A0-A618-0693D199113D}|AIIMS.Infrastructure\\AIIMS.Infrastructure.csproj|c:\\users\\asus\\source\\repos\\ai-ims\\aiims.infrastructure\\auth\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31F9C1FA-45A9-B3A0-A618-0693D199113D}|AIIMS.Infrastructure\\AIIMS.Infrastructure.csproj|solutionrelative:aiims.infrastructure\\auth\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{372FF094-6E35-75FD-5F1E-A8E9F6C11239}|AIIMS.Application\\AIIMS.Application.csproj|c:\\users\\asus\\source\\repos\\ai-ims\\aiims.application\\auth\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{372FF094-6E35-75FD-5F1E-A8E9F6C11239}|AIIMS.Application\\AIIMS.Application.csproj|solutionrelative:aiims.application\\auth\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31F9C1FA-45A9-B3A0-A618-0693D199113D}|AIIMS.Infrastructure\\AIIMS.Infrastructure.csproj|c:\\users\\asus\\source\\repos\\ai-ims\\aiims.infrastructure\\services\\inventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31F9C1FA-45A9-B3A0-A618-0693D199113D}|AIIMS.Infrastructure\\AIIMS.Infrastructure.csproj|solutionrelative:aiims.infrastructure\\services\\inventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6529B22-F697-5A5F-2455-79649678C70D}|AIIMS.Domain\\AIIMS.Domain.csproj|c:\\users\\asus\\source\\repos\\ai-ims\\aiims.domain\\entities\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6529B22-F697-5A5F-2455-79649678C70D}|AIIMS.Domain\\AIIMS.Domain.csproj|solutionrelative:aiims.domain\\entities\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6529B22-F697-5A5F-2455-79649678C70D}|AIIMS.Domain\\AIIMS.Domain.csproj|c:\\users\\asus\\source\\repos\\ai-ims\\aiims.domain\\entities\\alert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6529B22-F697-5A5F-2455-79649678C70D}|AIIMS.Domain\\AIIMS.Domain.csproj|solutionrelative:aiims.domain\\entities\\alert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6529B22-F697-5A5F-2455-79649678C70D}|AIIMS.Domain\\AIIMS.Domain.csproj|c:\\users\\asus\\source\\repos\\ai-ims\\aiims.domain\\entities\\reordersuggestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6529B22-F697-5A5F-2455-79649678C70D}|AIIMS.Domain\\AIIMS.Domain.csproj|solutionrelative:aiims.domain\\entities\\reordersuggestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{699BF4A6-2C60-47A4-9A30-34E26DA5ACFA}|AIIMS.API\\AIIMS.API.csproj|c:\\users\\asus\\source\\repos\\ai-ims\\aiims.api\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{699BF4A6-2C60-47A4-9A30-34E26DA5ACFA}|AIIMS.API\\AIIMS.API.csproj|solutionrelative:aiims.api\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{372FF094-6E35-75FD-5F1E-A8E9F6C11239}|AIIMS.Application\\AIIMS.Application.csproj|c:\\users\\asus\\source\\repos\\ai-ims\\aiims.application\\services\\ianalyticsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{372FF094-6E35-75FD-5F1E-A8E9F6C11239}|AIIMS.Application\\AIIMS.Application.csproj|solutionrelative:aiims.application\\services\\ianalyticsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{699BF4A6-2C60-47A4-9A30-34E26DA5ACFA}|AIIMS.API\\AIIMS.API.csproj|c:\\users\\asus\\source\\repos\\ai-ims\\aiims.api\\controllers\\analyticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{699BF4A6-2C60-47A4-9A30-34E26DA5ACFA}|AIIMS.API\\AIIMS.API.csproj|solutionrelative:aiims.api\\controllers\\analyticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{372FF094-6E35-75FD-5F1E-A8E9F6C11239}|AIIMS.Application\\AIIMS.Application.csproj|c:\\users\\asus\\source\\repos\\ai-ims\\aiims.application\\services\\iinventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{372FF094-6E35-75FD-5F1E-A8E9F6C11239}|AIIMS.Application\\AIIMS.Application.csproj|solutionrelative:aiims.application\\services\\iinventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{699BF4A6-2C60-47A4-9A30-34E26DA5ACFA}|AIIMS.API\\AIIMS.API.csproj|c:\\users\\asus\\source\\repos\\ai-ims\\aiims.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{699BF4A6-2C60-47A4-9A30-34E26DA5ACFA}|AIIMS.API\\AIIMS.API.csproj|solutionrelative:aiims.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6529B22-F697-5A5F-2455-79649678C70D}|AIIMS.Domain\\AIIMS.Domain.csproj|c:\\users\\asus\\source\\repos\\ai-ims\\aiims.domain\\entities\\inventorytransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6529B22-F697-5A5F-2455-79649678C70D}|AIIMS.Domain\\AIIMS.Domain.csproj|solutionrelative:aiims.domain\\entities\\inventorytransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{699BF4A6-2C60-47A4-9A30-34E26DA5ACFA}|AIIMS.API\\AIIMS.API.csproj|c:\\users\\asus\\source\\repos\\ai-ims\\aiims.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{699BF4A6-2C60-47A4-9A30-34E26DA5ACFA}|AIIMS.API\\AIIMS.API.csproj|solutionrelative:aiims.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31F9C1FA-45A9-B3A0-A618-0693D199113D}|AIIMS.Infrastructure\\AIIMS.Infrastructure.csproj|c:\\users\\asus\\source\\repos\\ai-ims\\aiims.infrastructure\\services\\analyticsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31F9C1FA-45A9-B3A0-A618-0693D199113D}|AIIMS.Infrastructure\\AIIMS.Infrastructure.csproj|solutionrelative:aiims.infrastructure\\services\\analyticsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{699BF4A6-2C60-47A4-9A30-34E26DA5ACFA}|AIIMS.API\\AIIMS.API.csproj|c:\\users\\asus\\source\\repos\\ai-ims\\aiims.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{699BF4A6-2C60-47A4-9A30-34E26DA5ACFA}|AIIMS.API\\AIIMS.API.csproj|solutionrelative:aiims.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31F9C1FA-45A9-B3A0-A618-0693D199113D}|AIIMS.Infrastructure\\AIIMS.Infrastructure.csproj|c:\\users\\asus\\source\\repos\\ai-ims\\aiims.infrastructure\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31F9C1FA-45A9-B3A0-A618-0693D199113D}|AIIMS.Infrastructure\\AIIMS.Infrastructure.csproj|solutionrelative:aiims.infrastructure\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31F9C1FA-45A9-B3A0-A618-0693D199113D}|AIIMS.Infrastructure\\AIIMS.Infrastructure.csproj|c:\\users\\asus\\source\\repos\\ai-ims\\aiims.infrastructure\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31F9C1FA-45A9-B3A0-A618-0693D199113D}|AIIMS.Infrastructure\\AIIMS.Infrastructure.csproj|solutionrelative:aiims.infrastructure\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6529B22-F697-5A5F-2455-79649678C70D}|AIIMS.Domain\\AIIMS.Domain.csproj|c:\\users\\asus\\source\\repos\\ai-ims\\aiims.domain\\entities\\demandforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6529B22-F697-5A5F-2455-79649678C70D}|AIIMS.Domain\\AIIMS.Domain.csproj|solutionrelative:aiims.domain\\entities\\demandforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6529B22-F697-5A5F-2455-79649678C70D}|AIIMS.Domain\\AIIMS.Domain.csproj|c:\\users\\asus\\source\\repos\\ai-ims\\aiims.domain\\entities\\stockhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6529B22-F697-5A5F-2455-79649678C70D}|AIIMS.Domain\\AIIMS.Domain.csproj|solutionrelative:aiims.domain\\entities\\stockhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6529B22-F697-5A5F-2455-79649678C70D}|AIIMS.Domain\\AIIMS.Domain.csproj|c:\\users\\asus\\source\\repos\\ai-ims\\aiims.domain\\entities\\activitylog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6529B22-F697-5A5F-2455-79649678C70D}|AIIMS.Domain\\AIIMS.Domain.csproj|solutionrelative:aiims.domain\\entities\\activitylog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6529B22-F697-5A5F-2455-79649678C70D}|AIIMS.Domain\\AIIMS.Domain.csproj|c:\\users\\asus\\source\\repos\\ai-ims\\aiims.domain\\entities\\systemlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6529B22-F697-5A5F-2455-79649678C70D}|AIIMS.Domain\\AIIMS.Domain.csproj|solutionrelative:aiims.domain\\entities\\systemlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6529B22-F697-5A5F-2455-79649678C70D}|AIIMS.Domain\\AIIMS.Domain.csproj|c:\\users\\asus\\source\\repos\\ai-ims\\aiims.domain\\entities\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6529B22-F697-5A5F-2455-79649678C70D}|AIIMS.Domain\\AIIMS.Domain.csproj|solutionrelative:aiims.domain\\entities\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6529B22-F697-5A5F-2455-79649678C70D}|AIIMS.Domain\\AIIMS.Domain.csproj|c:\\users\\asus\\source\\repos\\ai-ims\\aiims.domain\\entities\\stockthreshold.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6529B22-F697-5A5F-2455-79649678C70D}|AIIMS.Domain\\AIIMS.Domain.csproj|solutionrelative:aiims.domain\\entities\\stockthreshold.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6529B22-F697-5A5F-2455-79649678C70D}|AIIMS.Domain\\AIIMS.Domain.csproj|c:\\users\\asus\\source\\repos\\ai-ims\\aiims.domain\\entities\\return.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6529B22-F697-5A5F-2455-79649678C70D}|AIIMS.Domain\\AIIMS.Domain.csproj|solutionrelative:aiims.domain\\entities\\return.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6529B22-F697-5A5F-2455-79649678C70D}|AIIMS.Domain\\AIIMS.Domain.csproj|c:\\users\\asus\\source\\repos\\ai-ims\\aiims.domain\\entities\\stockbatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6529B22-F697-5A5F-2455-79649678C70D}|AIIMS.Domain\\AIIMS.Domain.csproj|solutionrelative:aiims.domain\\entities\\stockbatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6529B22-F697-5A5F-2455-79649678C70D}|AIIMS.Domain\\AIIMS.Domain.csproj|c:\\users\\asus\\source\\repos\\ai-ims\\aiims.domain\\entities\\batch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6529B22-F697-5A5F-2455-79649678C70D}|AIIMS.Domain\\AIIMS.Domain.csproj|solutionrelative:aiims.domain\\entities\\batch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6529B22-F697-5A5F-2455-79649678C70D}|AIIMS.Domain\\AIIMS.Domain.csproj|c:\\users\\asus\\source\\repos\\ai-ims\\aiims.domain\\entities\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6529B22-F697-5A5F-2455-79649678C70D}|AIIMS.Domain\\AIIMS.Domain.csproj|solutionrelative:aiims.domain\\entities\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6529B22-F697-5A5F-2455-79649678C70D}|AIIMS.Domain\\AIIMS.Domain.csproj|c:\\users\\asus\\source\\repos\\ai-ims\\aiims.domain\\entities\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6529B22-F697-5A5F-2455-79649678C70D}|AIIMS.Domain\\AIIMS.Domain.csproj|solutionrelative:aiims.domain\\entities\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6529B22-F697-5A5F-2455-79649678C70D}|AIIMS.Domain\\AIIMS.Domain.csproj|c:\\users\\asus\\source\\repos\\ai-ims\\aiims.domain\\entities\\zone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6529B22-F697-5A5F-2455-79649678C70D}|AIIMS.Domain\\AIIMS.Domain.csproj|solutionrelative:aiims.domain\\entities\\zone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6529B22-F697-5A5F-2455-79649678C70D}|AIIMS.Domain\\AIIMS.Domain.csproj|c:\\users\\asus\\source\\repos\\ai-ims\\aiims.domain\\entities\\warehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6529B22-F697-5A5F-2455-79649678C70D}|AIIMS.Domain\\AIIMS.Domain.csproj|solutionrelative:aiims.domain\\entities\\warehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6529B22-F697-5A5F-2455-79649678C70D}|AIIMS.Domain\\AIIMS.Domain.csproj|c:\\users\\asus\\source\\repos\\ai-ims\\aiims.domain\\entities\\barcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6529B22-F697-5A5F-2455-79649678C70D}|AIIMS.Domain\\AIIMS.Domain.csproj|solutionrelative:aiims.domain\\entities\\barcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6529B22-F697-5A5F-2455-79649678C70D}|AIIMS.Domain\\AIIMS.Domain.csproj|c:\\users\\asus\\source\\repos\\ai-ims\\aiims.domain\\entities\\itemunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6529B22-F697-5A5F-2455-79649678C70D}|AIIMS.Domain\\AIIMS.Domain.csproj|solutionrelative:aiims.domain\\entities\\itemunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6529B22-F697-5A5F-2455-79649678C70D}|AIIMS.Domain\\AIIMS.Domain.csproj|c:\\users\\asus\\source\\repos\\ai-ims\\aiims.domain\\entities\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6529B22-F697-5A5F-2455-79649678C70D}|AIIMS.Domain\\AIIMS.Domain.csproj|solutionrelative:aiims.domain\\entities\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6529B22-F697-5A5F-2455-79649678C70D}|AIIMS.Domain\\AIIMS.Domain.csproj|c:\\users\\asus\\source\\repos\\ai-ims\\aiims.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6529B22-F697-5A5F-2455-79649678C70D}|AIIMS.Domain\\AIIMS.Domain.csproj|solutionrelative:aiims.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6529B22-F697-5A5F-2455-79649678C70D}|AIIMS.Domain\\AIIMS.Domain.csproj|c:\\users\\asus\\source\\repos\\ai-ims\\aiims.domain\\entities\\poitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6529B22-F697-5A5F-2455-79649678C70D}|AIIMS.Domain\\AIIMS.Domain.csproj|solutionrelative:aiims.domain\\entities\\poitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6529B22-F697-5A5F-2455-79649678C70D}|AIIMS.Domain\\AIIMS.Domain.csproj|c:\\users\\asus\\source\\repos\\ai-ims\\aiims.domain\\entities\\purchaseorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6529B22-F697-5A5F-2455-79649678C70D}|AIIMS.Domain\\AIIMS.Domain.csproj|solutionrelative:aiims.domain\\entities\\purchaseorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6529B22-F697-5A5F-2455-79649678C70D}|AIIMS.Domain\\AIIMS.Domain.csproj|c:\\users\\asus\\source\\repos\\ai-ims\\aiims.domain\\entities\\supplierperformance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6529B22-F697-5A5F-2455-79649678C70D}|AIIMS.Domain\\AIIMS.Domain.csproj|solutionrelative:aiims.domain\\entities\\supplierperformance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6529B22-F697-5A5F-2455-79649678C70D}|AIIMS.Domain\\AIIMS.Domain.csproj|c:\\users\\asus\\source\\repos\\ai-ims\\aiims.domain\\entities\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6529B22-F697-5A5F-2455-79649678C70D}|AIIMS.Domain\\AIIMS.Domain.csproj|solutionrelative:aiims.domain\\entities\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6529B22-F697-5A5F-2455-79649678C70D}|AIIMS.Domain\\AIIMS.Domain.csproj|c:\\users\\asus\\source\\repos\\ai-ims\\aiims.domain\\entities\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6529B22-F697-5A5F-2455-79649678C70D}|AIIMS.Domain\\AIIMS.Domain.csproj|solutionrelative:aiims.domain\\entities\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6529B22-F697-5A5F-2455-79649678C70D}|AIIMS.Domain\\AIIMS.Domain.csproj|c:\\users\\asus\\source\\repos\\ai-ims\\aiims.domain\\entities\\shift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6529B22-F697-5A5F-2455-79649678C70D}|AIIMS.Domain\\AIIMS.Domain.csproj|solutionrelative:aiims.domain\\entities\\shift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6529B22-F697-5A5F-2455-79649678C70D}|AIIMS.Domain\\AIIMS.Domain.csproj|c:\\users\\asus\\source\\repos\\ai-ims\\aiims.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6529B22-F697-5A5F-2455-79649678C70D}|AIIMS.Domain\\AIIMS.Domain.csproj|solutionrelative:aiims.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6529B22-F697-5A5F-2455-79649678C70D}|AIIMS.Domain\\AIIMS.Domain.csproj|c:\\users\\asus\\source\\repos\\ai-ims\\aiims.domain\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6529B22-F697-5A5F-2455-79649678C70D}|AIIMS.Domain\\AIIMS.Domain.csproj|solutionrelative:aiims.domain\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31F9C1FA-45A9-B3A0-A618-0693D199113D}|AIIMS.Infrastructure\\AIIMS.Infrastructure.csproj|c:\\users\\asus\\source\\repos\\ai-ims\\aiims.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31F9C1FA-45A9-B3A0-A618-0693D199113D}|AIIMS.Infrastructure\\AIIMS.Infrastructure.csproj|solutionrelative:aiims.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IAnalyticsService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Application\\Services\\IAnalyticsService.cs",
+              "RelativeDocumentMoniker": "AIIMS.Application\\Services\\IAnalyticsService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Application\\Services\\IAnalyticsService.cs",
+              "RelativeToolTip": "AIIMS.Application\\Services\\IAnalyticsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T16:54:28.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ReorderSuggestion.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Domain\\Entities\\ReorderSuggestion.cs",
+              "RelativeDocumentMoniker": "AIIMS.Domain\\Entities\\ReorderSuggestion.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Domain\\Entities\\ReorderSuggestion.cs",
+              "RelativeToolTip": "AIIMS.Domain\\Entities\\ReorderSuggestion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T10:53:45.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Alert.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Domain\\Entities\\Alert.cs",
+              "RelativeDocumentMoniker": "AIIMS.Domain\\Entities\\Alert.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Domain\\Entities\\Alert.cs",
+              "RelativeToolTip": "AIIMS.Domain\\Entities\\Alert.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T10:44:36.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.API\\Program.cs",
+              "RelativeDocumentMoniker": "AIIMS.API\\Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.API\\Program.cs",
+              "RelativeToolTip": "AIIMS.API\\Program.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAwwFEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T10:05:30.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Application\\Auth\\IAuthService.cs",
+              "RelativeDocumentMoniker": "AIIMS.Application\\Auth\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Application\\Auth\\IAuthService.cs",
+              "RelativeToolTip": "AIIMS.Application\\Auth\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T15:10:36.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Infrastructure\\Auth\\AuthService.cs",
+              "RelativeDocumentMoniker": "AIIMS.Infrastructure\\Auth\\AuthService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Infrastructure\\Auth\\AuthService.cs",
+              "RelativeToolTip": "AIIMS.Infrastructure\\Auth\\AuthService.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAwwDgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T15:11:14.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "InventoryService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Infrastructure\\Services\\InventoryService.cs",
+              "RelativeDocumentMoniker": "AIIMS.Infrastructure\\Services\\InventoryService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Infrastructure\\Services\\InventoryService.cs",
+              "RelativeToolTip": "AIIMS.Infrastructure\\Services\\InventoryService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwLAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T15:07:37.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Domain\\Entities\\Item.cs",
+              "RelativeDocumentMoniker": "AIIMS.Domain\\Entities\\Item.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Domain\\Entities\\Item.cs",
+              "RelativeToolTip": "AIIMS.Domain\\Entities\\Item.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAADwvycAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T10:29:33.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "AIIMS.API\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.API\\appsettings.Development.json",
+              "RelativeToolTip": "AIIMS.API\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-04T10:01:52.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AIIMS.API.csproj",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.API\\AIIMS.API.csproj",
+              "RelativeDocumentMoniker": "AIIMS.API\\AIIMS.API.csproj",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.API\\AIIMS.API.csproj",
+              "RelativeToolTip": "AIIMS.API\\AIIMS.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-04T16:07:05.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "InventoryTransaction.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Domain\\Entities\\InventoryTransaction.cs",
+              "RelativeDocumentMoniker": "AIIMS.Domain\\Entities\\InventoryTransaction.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Domain\\Entities\\InventoryTransaction.cs",
+              "RelativeToolTip": "AIIMS.Domain\\Entities\\InventoryTransaction.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAiwCUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T10:41:00.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IInventoryService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Application\\Services\\IInventoryService.cs",
+              "RelativeDocumentMoniker": "AIIMS.Application\\Services\\IInventoryService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Application\\Services\\IInventoryService.cs",
+              "RelativeToolTip": "AIIMS.Application\\Services\\IInventoryService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T11:32:55.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "AIIMS.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "AIIMS.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAmwCQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T15:16:07.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "InventoryController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.API\\Controllers\\InventoryController.cs",
+              "RelativeDocumentMoniker": "AIIMS.API\\Controllers\\InventoryController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.API\\Controllers\\InventoryController.cs",
+              "RelativeToolTip": "AIIMS.API\\Controllers\\InventoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T15:21:27.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AnalyticsController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.API\\Controllers\\AnalyticsController.cs",
+              "RelativeDocumentMoniker": "AIIMS.API\\Controllers\\AnalyticsController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.API\\Controllers\\AnalyticsController.cs",
+              "RelativeToolTip": "AIIMS.API\\Controllers\\AnalyticsController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAgwCwAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T17:10:48.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "AIIMS.API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "AIIMS.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-21T21:26:23.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AnalyticsService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Infrastructure\\Services\\AnalyticsService.cs",
+              "RelativeDocumentMoniker": "AIIMS.Infrastructure\\Services\\AnalyticsService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Infrastructure\\Services\\AnalyticsService.cs",
+              "RelativeToolTip": "AIIMS.Infrastructure\\Services\\AnalyticsService.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAmwEgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T17:04:44.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.API\\appsettings.json",
+              "RelativeDocumentMoniker": "AIIMS.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.API\\appsettings.json",
+              "RelativeToolTip": "AIIMS.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-04T10:01:50.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "StockThreshold.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Domain\\Entities\\StockThreshold.cs",
+              "RelativeDocumentMoniker": "AIIMS.Domain\\Entities\\StockThreshold.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Domain\\Entities\\StockThreshold.cs",
+              "RelativeToolTip": "AIIMS.Domain\\Entities\\StockThreshold.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T10:43:27.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Return.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Domain\\Entities\\Return.cs",
+              "RelativeDocumentMoniker": "AIIMS.Domain\\Entities\\Return.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Domain\\Entities\\Return.cs",
+              "RelativeToolTip": "AIIMS.Domain\\Entities\\Return.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAmwBsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T10:41:21.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Infrastructure\\Repositories\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "AIIMS.Infrastructure\\Repositories\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Infrastructure\\Repositories\\IGenericRepository.cs",
+              "RelativeToolTip": "AIIMS.Infrastructure\\Repositories\\IGenericRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T11:29:45.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Infrastructure\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "AIIMS.Infrastructure\\Repositories\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Infrastructure\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "AIIMS.Infrastructure\\Repositories\\GenericRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA/wC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T11:30:03.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Notification.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Domain\\Entities\\Notification.cs",
+              "RelativeDocumentMoniker": "AIIMS.Domain\\Entities\\Notification.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Domain\\Entities\\Notification.cs",
+              "RelativeToolTip": "AIIMS.Domain\\Entities\\Notification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T10:45:03.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SystemLog.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Domain\\Entities\\SystemLog.cs",
+              "RelativeDocumentMoniker": "AIIMS.Domain\\Entities\\SystemLog.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Domain\\Entities\\SystemLog.cs",
+              "RelativeToolTip": "AIIMS.Domain\\Entities\\SystemLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAmwBsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T10:50:11.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ActivityLog.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Domain\\Entities\\ActivityLog.cs",
+              "RelativeDocumentMoniker": "AIIMS.Domain\\Entities\\ActivityLog.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Domain\\Entities\\ActivityLog.cs",
+              "RelativeToolTip": "AIIMS.Domain\\Entities\\ActivityLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T10:50:30.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "StockHistory.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Domain\\Entities\\StockHistory.cs",
+              "RelativeDocumentMoniker": "AIIMS.Domain\\Entities\\StockHistory.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Domain\\Entities\\StockHistory.cs",
+              "RelativeToolTip": "AIIMS.Domain\\Entities\\StockHistory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T10:52:49.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DemandForecast.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Domain\\Entities\\DemandForecast.cs",
+              "RelativeDocumentMoniker": "AIIMS.Domain\\Entities\\DemandForecast.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Domain\\Entities\\DemandForecast.cs",
+              "RelativeToolTip": "AIIMS.Domain\\Entities\\DemandForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T10:53:11.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "StockBatch.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Domain\\Entities\\StockBatch.cs",
+              "RelativeDocumentMoniker": "AIIMS.Domain\\Entities\\StockBatch.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Domain\\Entities\\StockBatch.cs",
+              "RelativeToolTip": "AIIMS.Domain\\Entities\\StockBatch.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T10:37:23.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Batch.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Domain\\Entities\\Batch.cs",
+              "RelativeDocumentMoniker": "AIIMS.Domain\\Entities\\Batch.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Domain\\Entities\\Batch.cs",
+              "RelativeToolTip": "AIIMS.Domain\\Entities\\Batch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T10:36:45.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Stock.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Domain\\Entities\\Stock.cs",
+              "RelativeDocumentMoniker": "AIIMS.Domain\\Entities\\Stock.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Domain\\Entities\\Stock.cs",
+              "RelativeToolTip": "AIIMS.Domain\\Entities\\Stock.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T10:36:23.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Location.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Domain\\Entities\\Location.cs",
+              "RelativeDocumentMoniker": "AIIMS.Domain\\Entities\\Location.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Domain\\Entities\\Location.cs",
+              "RelativeToolTip": "AIIMS.Domain\\Entities\\Location.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwCEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T10:32:36.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Zone.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Domain\\Entities\\Zone.cs",
+              "RelativeDocumentMoniker": "AIIMS.Domain\\Entities\\Zone.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Domain\\Entities\\Zone.cs",
+              "RelativeToolTip": "AIIMS.Domain\\Entities\\Zone.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T10:32:15.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Warehouse.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Domain\\Entities\\Warehouse.cs",
+              "RelativeDocumentMoniker": "AIIMS.Domain\\Entities\\Warehouse.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Domain\\Entities\\Warehouse.cs",
+              "RelativeToolTip": "AIIMS.Domain\\Entities\\Warehouse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T10:31:53.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Barcode.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Domain\\Entities\\Barcode.cs",
+              "RelativeDocumentMoniker": "AIIMS.Domain\\Entities\\Barcode.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Domain\\Entities\\Barcode.cs",
+              "RelativeToolTip": "AIIMS.Domain\\Entities\\Barcode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T10:30:15.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ItemUnit.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Domain\\Entities\\ItemUnit.cs",
+              "RelativeDocumentMoniker": "AIIMS.Domain\\Entities\\ItemUnit.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Domain\\Entities\\ItemUnit.cs",
+              "RelativeToolTip": "AIIMS.Domain\\Entities\\ItemUnit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T10:29:54.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Unit.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Domain\\Entities\\Unit.cs",
+              "RelativeDocumentMoniker": "AIIMS.Domain\\Entities\\Unit.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Domain\\Entities\\Unit.cs",
+              "RelativeToolTip": "AIIMS.Domain\\Entities\\Unit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T10:28:47.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Domain\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "AIIMS.Domain\\Entities\\Category.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Domain\\Entities\\Category.cs",
+              "RelativeToolTip": "AIIMS.Domain\\Entities\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T10:28:26.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "POItem.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Domain\\Entities\\POItem.cs",
+              "RelativeDocumentMoniker": "AIIMS.Domain\\Entities\\POItem.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Domain\\Entities\\POItem.cs",
+              "RelativeToolTip": "AIIMS.Domain\\Entities\\POItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T10:26:27.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "PurchaseOrder.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Domain\\Entities\\PurchaseOrder.cs",
+              "RelativeDocumentMoniker": "AIIMS.Domain\\Entities\\PurchaseOrder.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Domain\\Entities\\PurchaseOrder.cs",
+              "RelativeToolTip": "AIIMS.Domain\\Entities\\PurchaseOrder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T10:26:03.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "SupplierPerformance.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Domain\\Entities\\SupplierPerformance.cs",
+              "RelativeDocumentMoniker": "AIIMS.Domain\\Entities\\SupplierPerformance.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Domain\\Entities\\SupplierPerformance.cs",
+              "RelativeToolTip": "AIIMS.Domain\\Entities\\SupplierPerformance.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T10:25:38.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Supplier.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Domain\\Entities\\Supplier.cs",
+              "RelativeDocumentMoniker": "AIIMS.Domain\\Entities\\Supplier.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Domain\\Entities\\Supplier.cs",
+              "RelativeToolTip": "AIIMS.Domain\\Entities\\Supplier.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA/wC4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T10:25:11.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "UserSession.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Domain\\Entities\\UserSession.cs",
+              "RelativeDocumentMoniker": "AIIMS.Domain\\Entities\\UserSession.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Domain\\Entities\\UserSession.cs",
+              "RelativeToolTip": "AIIMS.Domain\\Entities\\UserSession.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAADwvxIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T10:22:19.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Shift.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Domain\\Entities\\Shift.cs",
+              "RelativeDocumentMoniker": "AIIMS.Domain\\Entities\\Shift.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Domain\\Entities\\Shift.cs",
+              "RelativeToolTip": "AIIMS.Domain\\Entities\\Shift.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T10:21:50.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "AIIMS.Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "AIIMS.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwCAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T10:19:45.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Domain\\Entities\\Role.cs",
+              "RelativeDocumentMoniker": "AIIMS.Domain\\Entities\\Role.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Domain\\Entities\\Role.cs",
+              "RelativeToolTip": "AIIMS.Domain\\Entities\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T10:18:46.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "AIIMS.Infrastructure\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\AI-IMS\\AIIMS.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "AIIMS.Infrastructure\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwDsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T10:03:08.151Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

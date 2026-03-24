@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="AIIMS.API/AIIMS.API.csproj" />
+  <Project Path="AIIMS.Application/AIIMS.Application.csproj" />
+  <Project Path="AIIMS.Domain/AIIMS.Domain.csproj" />
+  <Project Path="AIIMS.Infrastructure/AIIMS.Infrastructure.csproj" />
+</Solution>
