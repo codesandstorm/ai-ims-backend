@@ -8,6 +8,7 @@ C:\Users\ASUS\source\repos\AI-IMS\AIIMS.Application\obj\Debug\net10.0\AIIMS.Appl
 C:\Users\ASUS\source\repos\AI-IMS\AIIMS.Application\obj\Debug\net10.0\AIIMS.Application.AssemblyInfoInputs.cache
 C:\Users\ASUS\source\repos\AI-IMS\AIIMS.Application\obj\Debug\net10.0\AIIMS.Application.AssemblyInfo.cs
 C:\Users\ASUS\source\repos\AI-IMS\AIIMS.Application\obj\Debug\net10.0\AIIMS.Application.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\AI-IMS\AIIMS.Application\obj\Debug\net10.0\AIIMS.Application.sourcelink.json
 C:\Users\ASUS\source\repos\AI-IMS\AIIMS.Application\obj\Debug\net10.0\AIIMS.Ap.C92E3559.Up2Date
 C:\Users\ASUS\source\repos\AI-IMS\AIIMS.Application\obj\Debug\net10.0\AIIMS.Application.dll
 C:\Users\ASUS\source\repos\AI-IMS\AIIMS.Application\obj\Debug\net10.0\refint\AIIMS.Application.dll

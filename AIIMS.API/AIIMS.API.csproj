@@ -7,21 +7,16 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="10.0.3" />
-
-		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.3">
-			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-			<PrivateAssets>all</PrivateAssets>
-		</PackageReference>
-
-		<PackageReference Include="Microsoft.OpenApi" Version="3.3.1" />
-
-		<PackageReference Include="Swashbuckle.AspNetCore" Version="10.1.4" />
+		<ProjectReference Include="..\AIIMS.Application\AIIMS.Application.csproj" />
+		<ProjectReference Include="..\AIIMS.Infrastructure\AIIMS.Infrastructure.csproj" />
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\AIIMS.Application\AIIMS.Application.csproj" />
-		<ProjectReference Include="..\AIIMS.Infrastructure\AIIMS.Infrastructure.csproj" />
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="10.0.3" />
+
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.3">
+			<PrivateAssets>all</PrivateAssets>
+		</PackageReference>
 	</ItemGroup>
 
 </Project>

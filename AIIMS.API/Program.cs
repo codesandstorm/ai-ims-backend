@@ -31,12 +31,11 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 // =============================
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IInventoryService, InventoryService>();
+builder.Services.AddScoped<IAnalyticsService, AnalyticsService>();
 
 // =============================
-// 🔥 JWT AUTH (FIXED)
+// 🔥 JWT AUTH CONFIG
 // =============================
-
-// 🔥 READ FROM appsettings.json (NO HARDCODE)
 var jwtKey = builder.Configuration["Jwt:Key"];
 var key = Encoding.UTF8.GetBytes(jwtKey!);
 
@@ -61,22 +60,23 @@ builder.Services.AddAuthentication(options =>
         ValidAudience = builder.Configuration["Jwt:Audience"],
 
         IssuerSigningKey = new SymmetricSecurityKey(key),
-
         ClockSkew = TimeSpan.Zero
     };
 });
 
 // =============================
-// APP PIPELINE
+// BUILD APP
 // =============================
 var app = builder.Build();
 
-// 🔥 IMPORTANT: DISABLE FOR NGROK + RENDER
-// app.UseHttpsRedirection();
+// =============================
+// MIDDLEWARE
+// =============================
+app.UseHttpsRedirection();
 
 app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
 
-app.Run();do
+app.Run();

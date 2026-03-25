@@ -26,15 +26,11 @@ C:\Users\ASUS\source\repos\AI-IMS\AIIMS.API\bin\Debug\net10.0\Microsoft.Identity
 C:\Users\ASUS\source\repos\AI-IMS\AIIMS.API\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.dll
 C:\Users\ASUS\source\repos\AI-IMS\AIIMS.API\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\ASUS\source\repos\AI-IMS\AIIMS.API\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\ASUS\source\repos\AI-IMS\AIIMS.API\bin\Debug\net10.0\Microsoft.OpenApi.dll
 C:\Users\ASUS\source\repos\AI-IMS\AIIMS.API\bin\Debug\net10.0\Microsoft.VisualStudio.SolutionPersistence.dll
 C:\Users\ASUS\source\repos\AI-IMS\AIIMS.API\bin\Debug\net10.0\Mono.TextTemplating.dll
 C:\Users\ASUS\source\repos\AI-IMS\AIIMS.API\bin\Debug\net10.0\Newtonsoft.Json.dll
 C:\Users\ASUS\source\repos\AI-IMS\AIIMS.API\bin\Debug\net10.0\Npgsql.dll
 C:\Users\ASUS\source\repos\AI-IMS\AIIMS.API\bin\Debug\net10.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
-C:\Users\ASUS\source\repos\AI-IMS\AIIMS.API\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\ASUS\source\repos\AI-IMS\AIIMS.API\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\ASUS\source\repos\AI-IMS\AIIMS.API\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\ASUS\source\repos\AI-IMS\AIIMS.API\bin\Debug\net10.0\System.CodeDom.dll
 C:\Users\ASUS\source\repos\AI-IMS\AIIMS.API\bin\Debug\net10.0\System.Composition.AttributedModel.dll
 C:\Users\ASUS\source\repos\AI-IMS\AIIMS.API\bin\Debug\net10.0\System.Composition.Convention.dll
@@ -119,8 +115,8 @@ C:\Users\ASUS\source\repos\AI-IMS\AIIMS.API\obj\Debug\net10.0\AIIMS.API.Generate
 C:\Users\ASUS\source\repos\AI-IMS\AIIMS.API\obj\Debug\net10.0\AIIMS.API.AssemblyInfoInputs.cache
 C:\Users\ASUS\source\repos\AI-IMS\AIIMS.API\obj\Debug\net10.0\AIIMS.API.AssemblyInfo.cs
 C:\Users\ASUS\source\repos\AI-IMS\AIIMS.API\obj\Debug\net10.0\AIIMS.API.csproj.CoreCompileInputs.cache
-C:\Users\ASUS\source\repos\AI-IMS\AIIMS.API\obj\Debug\net10.0\AIIMS.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\ASUS\source\repos\AI-IMS\AIIMS.API\obj\Debug\net10.0\AIIMS.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ASUS\source\repos\AI-IMS\AIIMS.API\obj\Debug\net10.0\AIIMS.API.sourcelink.json
 C:\Users\ASUS\source\repos\AI-IMS\AIIMS.API\obj\Debug\net10.0\rjimswa.dswa.cache.json
 C:\Users\ASUS\source\repos\AI-IMS\AIIMS.API\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
 C:\Users\ASUS\source\repos\AI-IMS\AIIMS.API\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json

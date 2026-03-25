@@ -11,6 +11,7 @@ C:\Users\ASUS\source\repos\AI-IMS\AIIMS.Infrastructure\obj\Debug\net10.0\AIIMS.I
 C:\Users\ASUS\source\repos\AI-IMS\AIIMS.Infrastructure\obj\Debug\net10.0\AIIMS.Infrastructure.AssemblyInfoInputs.cache
 C:\Users\ASUS\source\repos\AI-IMS\AIIMS.Infrastructure\obj\Debug\net10.0\AIIMS.Infrastructure.AssemblyInfo.cs
 C:\Users\ASUS\source\repos\AI-IMS\AIIMS.Infrastructure\obj\Debug\net10.0\AIIMS.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\AI-IMS\AIIMS.Infrastructure\obj\Debug\net10.0\AIIMS.Infrastructure.sourcelink.json
 C:\Users\ASUS\source\repos\AI-IMS\AIIMS.Infrastructure\obj\Debug\net10.0\AIIMS.In.34A800EE.Up2Date
 C:\Users\ASUS\source\repos\AI-IMS\AIIMS.Infrastructure\obj\Debug\net10.0\AIIMS.Infrastructure.dll
 C:\Users\ASUS\source\repos\AI-IMS\AIIMS.Infrastructure\obj\Debug\net10.0\refint\AIIMS.Infrastructure.dll
