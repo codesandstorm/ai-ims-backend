@@ -12,7 +12,7 @@ using System.Text.Json.Serialization;
 var builder = WebApplication.CreateBuilder(args);
 
 // =============================
-// CONTROLLERS + JSON FIX
+// CONTROLLERS
 // =============================
 builder.Services.AddControllers()
     .AddJsonOptions(options =>
@@ -23,8 +23,17 @@ builder.Services.AddControllers()
 // =============================
 // DATABASE
 // =============================
+var connectionString =
+    builder.Configuration.GetConnectionString("DefaultConnection") ??
+    builder.Configuration["ConnectionStrings__DefaultConnection"];
+
+if (string.IsNullOrEmpty(connectionString))
+{
+    throw new Exception("❌ DATABASE CONNECTION STRING MISSING");
+}
+
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseNpgsql(connectionString));
 
 // =============================
 // SERVICES
@@ -34,10 +43,32 @@ builder.Services.AddScoped<IInventoryService, InventoryService>();
 builder.Services.AddScoped<IAnalyticsService, AnalyticsService>();
 
 // =============================
-// 🔥 JWT AUTH CONFIG
+// 🔥 JWT CONFIG (SAFE VERSION)
 // =============================
-var jwtKey = builder.Configuration["Jwt:Key"];
-var key = Encoding.UTF8.GetBytes(jwtKey!);
+var jwtKey =
+    builder.Configuration["Jwt:Key"] ??
+    builder.Configuration["Jwt__Key"];
+
+var issuer =
+    builder.Configuration["Jwt:Issuer"] ??
+    builder.Configuration["Jwt__Issuer"];
+
+var audience =
+    builder.Configuration["Jwt:Audience"] ??
+    builder.Configuration["Jwt__Audience"];
+
+// 🔥 DEBUG LOG (IMPORTANT)
+Console.WriteLine("JWT KEY: " + (jwtKey ?? "NULL"));
+Console.WriteLine("ISSUER: " + (issuer ?? "NULL"));
+Console.WriteLine("AUDIENCE: " + (audience ?? "NULL"));
+
+// 🔥 HARD FAIL WITH CLEAR ERROR
+if (string.IsNullOrEmpty(jwtKey))
+{
+    throw new Exception("❌ JWT KEY NOT FOUND IN ENV VARIABLES");
+}
+
+var key = Encoding.UTF8.GetBytes(jwtKey);
 
 builder.Services.AddAuthentication(options =>
 {
@@ -56,8 +87,8 @@ builder.Services.AddAuthentication(options =>
         ValidateLifetime = true,
         ValidateIssuerSigningKey = true,
 
-        ValidIssuer = builder.Configuration["Jwt:Issuer"],
-        ValidAudience = builder.Configuration["Jwt:Audience"],
+        ValidIssuer = issuer,
+        ValidAudience = audience,
 
         IssuerSigningKey = new SymmetricSecurityKey(key),
         ClockSkew = TimeSpan.Zero
@@ -65,7 +96,7 @@ builder.Services.AddAuthentication(options =>
 });
 
 // =============================
-// BUILD APP
+// APP BUILD
 // =============================
 var app = builder.Build();
 
