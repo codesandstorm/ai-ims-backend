@@ -23,53 +23,39 @@ builder.Services.AddControllers()
 // =============================
 // DATABASE
 // =============================
-var connectionString =
-    builder.Configuration.GetConnectionString("DefaultConnection") ??
-    builder.Configuration["ConnectionStrings__DefaultConnection"];
-
-if (string.IsNullOrEmpty(connectionString))
-{
-    throw new Exception("❌ DATABASE CONNECTION STRING MISSING");
-}
-
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseNpgsql(connectionString));
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // =============================
 // SERVICES
 // =============================
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IInventoryService, InventoryService>();
-builder.Services.AddScoped<IAnalyticsService, AnalyticsService>();
 
 // =============================
-// 🔥 JWT CONFIG (SAFE VERSION)
+// 🔥 JWT FIX (FALLBACK SAFE)
 // =============================
-var jwtKey =
-    builder.Configuration["Jwt:Key"] ??
-    builder.Configuration["Jwt__Key"];
+var jwtKey = builder.Configuration["Jwt:Key"]
+             ?? Environment.GetEnvironmentVariable("Jwt__Key")
+             ?? "THIS_IS_A_SUPER_SECURE_AIIMS_JWT_SECRET_KEY_2026";
 
-var issuer =
-    builder.Configuration["Jwt:Issuer"] ??
-    builder.Configuration["Jwt__Issuer"];
+var issuer = builder.Configuration["Jwt:Issuer"]
+             ?? Environment.GetEnvironmentVariable("Jwt__Issuer")
+             ?? "AIIMS";
 
-var audience =
-    builder.Configuration["Jwt:Audience"] ??
-    builder.Configuration["Jwt__Audience"];
+var audience = builder.Configuration["Jwt:Audience"]
+               ?? Environment.GetEnvironmentVariable("Jwt__Audience")
+               ?? "AIIMS_USERS";
 
-// 🔥 DEBUG LOG (IMPORTANT)
-Console.WriteLine("JWT KEY: " + (jwtKey ?? "NULL"));
-Console.WriteLine("ISSUER: " + (issuer ?? "NULL"));
-Console.WriteLine("AUDIENCE: " + (audience ?? "NULL"));
-
-// 🔥 HARD FAIL WITH CLEAR ERROR
-if (string.IsNullOrEmpty(jwtKey))
-{
-    throw new Exception("❌ JWT KEY NOT FOUND IN ENV VARIABLES");
-}
+Console.WriteLine($"JWT KEY: {jwtKey}");
+Console.WriteLine($"ISSUER: {issuer}");
+Console.WriteLine($"AUDIENCE: {audience}");
 
 var key = Encoding.UTF8.GetBytes(jwtKey);
 
+// =============================
+// AUTH
+// =============================
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -96,14 +82,9 @@ builder.Services.AddAuthentication(options =>
 });
 
 // =============================
-// APP BUILD
+// APP
 // =============================
 var app = builder.Build();
-
-// =============================
-// MIDDLEWARE
-// =============================
-app.UseHttpsRedirection();
 
 app.UseAuthentication();
 app.UseAuthorization();

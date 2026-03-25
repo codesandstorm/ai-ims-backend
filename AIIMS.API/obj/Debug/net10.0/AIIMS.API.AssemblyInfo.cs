@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AIIMS.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+20fe4fde61ab78af0629d34156b3044b19d7b40b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3cd90c9124838886ae5afd06075eaecf1c13ea93")]
 [assembly: System.Reflection.AssemblyProductAttribute("AIIMS.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AIIMS.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
