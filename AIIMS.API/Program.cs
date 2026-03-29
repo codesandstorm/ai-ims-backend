@@ -21,10 +21,24 @@ builder.Services.AddControllers()
     });
 
 // =============================
-// DATABASE
+// 🔥 FORCE DATABASE CONNECTION (FIXED)
 // =============================
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+{
+    // Kill any Railway override
+    Environment.SetEnvironmentVariable("DATABASE_URL", null);
+
+    // Get correct connection string
+    var connectionString =
+        builder.Configuration.GetConnectionString("DefaultConnection")
+        ?? Environment.GetEnvironmentVariable("ConnectionStrings__DefaultConnection");
+
+    Console.WriteLine("========== DATABASE DEBUG ==========");
+    Console.WriteLine($"DB CONNECTION USED: {connectionString}");
+    Console.WriteLine("====================================");
+
+    options.UseNpgsql(connectionString);
+});
 
 // =============================
 // SERVICES
@@ -33,7 +47,7 @@ builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IInventoryService, InventoryService>();
 
 // =============================
-// 🔥 JWT FIX (FALLBACK SAFE)
+// JWT CONFIG
 // =============================
 var jwtKey = builder.Configuration["Jwt:Key"]
              ?? Environment.GetEnvironmentVariable("Jwt__Key")
@@ -47,9 +61,11 @@ var audience = builder.Configuration["Jwt:Audience"]
                ?? Environment.GetEnvironmentVariable("Jwt__Audience")
                ?? "AIIMS_USERS";
 
+Console.WriteLine("========== JWT DEBUG ==========");
 Console.WriteLine($"JWT KEY: {jwtKey}");
 Console.WriteLine($"ISSUER: {issuer}");
 Console.WriteLine($"AUDIENCE: {audience}");
+Console.WriteLine("================================");
 
 var key = Encoding.UTF8.GetBytes(jwtKey);
 
